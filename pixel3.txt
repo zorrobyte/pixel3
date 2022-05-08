@@ -75,7 +75,7 @@ ssh -p 8022 localhost
 # install openpilot
 touch /EON
 cd /data
-git clone https://github.com/commaai/openpilot.git --recurse-submodules -b pixel3
+git clone https://github.com/incognitojam/openpilot.git --recurse-submodules -b later-android-camera
 cd openpilot
 scons -j4
 # two things currently don't build, the model and panda (binutils issue)
